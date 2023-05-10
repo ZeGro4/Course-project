@@ -1,0 +1,382 @@
+html {
+    box-sizing: border-box;
+}
+*,*::after,*::before{
+    box-sizing:inherit;
+}
+body{
+    margin: 0px;
+    font-family: 'Italianno';
+font-style: normal;
+text-align: justify;
+color:#eaeae4;
+word-spacing: 4px;
+}
+div{
+    margin: 0px;
+}
+/* Header */
+header{
+    background: #882426;
+    height: 70px;
+    width: 100%;
+     /* position: fixed; */ 
+}
+
+.logo{
+    text-decoration: none;
+}
+ul {
+    margin: 0px;
+}
+.list {
+    padding: 0px;
+}
+.list > li {
+    margin: 0px;
+    display: inline-block;
+    margin-right: 30px;
+}
+.list > li:last-child{
+    margin-right: 0px;
+}
+.list > li > a{
+    display: inline-block;
+text-decoration: none;
+color:#FFF;
+font-family: 'Italianno';
+font-style: normal;
+font-weight: 400;
+width: 70px;
+height: 20px;
+font-size: 18px;
+line-height: 18px;
+border-radius: 5px;
+text-align: center;
+letter-spacing:.1rem;
+}
+.list > li > a:hover{
+    opacity: 80%;
+}
+.hdiv {
+   max-width: 85%;
+   margin: 0px auto;
+   display: flex;
+   flex-wrap: wrap;
+   align-items:center;
+   justify-content: space-between;
+}
+.nmenu{
+    margin: 0px;
+   
+}
+.logo{
+    margin: 0px;
+    color: black;
+}
+.dlogo{
+    width: 55px;
+}
+.nav{
+    display: flex;
+    flex-wrap: wrap;
+}
+/* first section */
+.first_section{
+    height: 70vh;
+    background: url(../Pictures/brick-wall-gb6ff91390_1280.jpg);
+}
+.wrapper_one{
+    max-width: 85%;
+    margin: 0 auto;
+    padding-top: 60px;
+}
+.griddiv{
+    display:grid;
+    grid-template-columns: 400px 600px;
+    justify-content: space-between;
+    justify-self: center;
+}
+.text{
+    font-size: 20px;
+    font-weight: bold;
+}
+.button_send {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center; 
+ 
+}
+.button_send button{
+    position: relative;
+  display: block;
+  border: 1px solid #000;
+  margin: 20px auto;
+  font-family: "Dosis", sans;
+  font-size: 18px;
+  font-weight: 200;
+  background-color: #882426;
+  color: #FEFFFF;
+  text-transform: uppercase;
+  text-decoration: none;
+  text-align: center;
+  letter-spacing: 1px;
+  width: 240px;
+  height: 40px;
+  transition: left 0.6s linear;
+}
+
+.button_send button:hover{
+    border: 1px solid #FEFFFF;
+    margin: 20px auto;
+    opacity: 1;
+    letter-spacing: 4px;
+}
+
+/* first section */
+
+/* Second section */
+.second_section{
+    background-color: #C29545;
+}
+.wrapper_two h2{
+    text-align: center;
+    color: #FFF;
+   margin: 20px;
+
+}
+.wrapper_two{
+    padding-top: 30px;
+    max-width: 85%;
+    margin: 0 auto;
+    height: 55vh;
+    color: #301107;
+
+}
+.point{
+    padding: 5px;
+    height: 30px;
+    border-radius: 5px;
+    background-color:#CDBEA7;
+    margin-bottom: 15px;
+}
+.list_services{
+    max-width: 70%;
+    margin: 0 auto;
+}
+#point{
+    position: relative;
+    transition: top 0.7s ease;
+}
+
+/* Second section */
+/* third secction */
+.wrapper_three h2{
+    text-align: center;
+}
+.wrapper_three{
+    padding-top: 50px;
+    color: black;
+    max-width: 85%;
+    margin: 0 auto;
+    height: 60vh;
+  
+}
+
+.type_list{
+    display: flex;
+    justify-content: center;
+}
+.lists li{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.l1{
+   position: relative;
+   transition: left 0.5s linear;
+
+}
+.l2{
+    position: relative;
+    transition: left 0.6s linear;
+}
+.l3{
+    position: relative;
+    transition: left 0.7s linear;
+}
+.l4{
+    position: relative;
+    transition: left 0.8s linear;
+}
+.l5{
+    position: relative;
+    transition: left 0.9s linear;
+}
+/* third secction */
+
+
+/* Footer */
+.footer{
+  
+    height: 20vh;
+    background-color: #323030;
+    color: #F7EFE2;
+    padding: 40px 0px 0px 0px;
+}
+footer p {
+    width: 400px;
+}
+.our_email{
+    margin: 0px;
+}
+.wrapper_footer{
+    max-width: 85%;
+    margin: 0px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+.information p:hover{
+    opacity: 80%;
+}
+.social{
+    margin-right: 130px;
+}
+.icons{
+    display: inline-block;
+    margin: 0px;
+}
+.icons img{
+    width: 25px;
+    height: 25px;
+}
+
+/* XML */
+informationXML{
+    height: 100px;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 20px 20px 20px;
+    grid-gap:10px;
+}
+
+myName:hover,telephone:hover,email:hover{
+    opacity: 80%;
+}
+/* XML */
+
+/* Footer */
+
+@media (max-width:1025px) {
+    .griddiv{
+        grid-template-columns: 400px 500px;
+    }
+    .text{
+        margin-left: 30px;
+        font-size: 18px;
+    }
+    .wrapper_two{
+        height: 60vh;
+    }
+    .footer{
+        height:25vh;
+    }
+    
+}
+@media (max-width:769px) {
+    .griddiv{
+        grid-template-columns: 300px 350px;
+    }
+    .wrapper_two{
+        height: 60vh;
+    }
+    .footer{
+        height:35vh;
+    }
+}
+@media (max-width:426px) {
+    .griddiv{
+        grid-template-columns: 370px;
+        grid-template-rows: 150px 200px;
+    }
+    .text{
+        margin: 0px;
+    }
+    .first_section{
+        height: 90vh;
+    }
+    .button_send{
+        margin-top: 50px;
+    }
+    .wrapper_two{
+        height: 70vh;
+    }
+    .wrapper_three{
+        height: 105vh;
+        padding-top: 50px;
+    }
+    informationXML{
+        height: 100px;
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: 20px 20px 20px;
+        grid-gap:20px;
+    }
+    .lists{
+        padding-left: 10px;
+    }
+}
+@media (max-width:376px) {
+    .button_send{
+        margin-top: 20px;
+    }
+    .dlogo img{
+        width: 50px;
+        height: 50px;
+     }
+     .hdiv{
+        max-width: 95%;
+     }
+     .griddiv{
+        grid-template-columns: 320px;
+        grid-template-rows: 150px 170px;
+    }
+    .text{
+        font-size: 16px;
+    }
+    .wrapper_three{
+        height: 105vh;
+        padding-top: 40px;
+    }
+}
+@media (max-width:321px) {
+    .list >li > a{
+        font-size: 14px ;
+    }
+    .list > li{
+        margin-right: 10px;
+    }
+    .griddiv{
+        grid-template-columns: 280px;
+        grid-template-rows: 150px 170px;
+    }
+    .wrapper_three{
+        height: 105vh;
+        padding-top: 40px;
+    }
+    .type_list{
+        display: block;
+    }
+    .footer{
+        margin-top: 40px;
+        height: 40vh;
+    }
+    .point{
+        height: 45px;
+        padding: 5px;
+    }
+    .wrapper_two{
+        height: 73vh;
+    }
+}
